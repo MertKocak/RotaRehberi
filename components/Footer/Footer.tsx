@@ -63,7 +63,7 @@ export const Footer = () => {
                                 alt="telephone"
                             />
                         </div>
-                        <p className='font-normal font-poppins text-gray-700 text-md ml-2'>+9005554443322</p>
+                        <p className='font-normal font-poppins text-gray-700 text-md ml-2'>+905554443322</p>
                     </div>
                     <div className='flex flex-row items-center'>
                         <div className='bg-custom-green h-10 w-10 rounded-full place-items-center content-center'>
@@ -78,16 +78,20 @@ export const Footer = () => {
                     </div>
                     <div className='flex flex-row gap-4 items-center'>
                         <p className='font-normal font-poppins text-gray-700 text-md ml-2'>Bizi Takip Edin</p>
-                        <img
-                            src="/instagram.png"
-                            alt="instagram"
-                            className='object-cover h-10'
-                        />
-                        <img
-                            src="/twitter.png"
-                            alt="twitter"
-                            className='object-cover h-[33px] mr-2'
-                        />
+                        <Link href={"/"}>
+                            <img
+                                src="/instagram.png"
+                                alt="instagram"
+                                className='object-cover h-10'
+                            />
+                        </Link>
+                        <Link href={"/"}>
+                            <img
+                                src="/twitter.png"
+                                alt="twitter"
+                                className='object-cover h-[33px] mr-2'
+                            />
+                        </Link>
                     </div>
                 </div>
                 <Link className='justify-center' href="/">
